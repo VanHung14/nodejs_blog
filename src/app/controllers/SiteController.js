@@ -1,9 +1,6 @@
-
 class NewsController {
-
-
     // [GET] /
-    index(req,res) {
+    index(req, res) {
         res.render('home');
     }
     // [GET] /search
@@ -12,4 +9,4 @@ class NewsController {
     }
 }
 
-module.exports = new NewsController;
+module.exports = new NewsController();
